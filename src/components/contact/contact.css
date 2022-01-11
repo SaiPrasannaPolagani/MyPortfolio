@@ -1,0 +1,50 @@
+.left,
+.right {
+  width: 50%;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+.img {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.heading {
+  margin-top: 80px;
+  margin-left: 180px;
+}
+.form {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  background-color: rgb(223, 205, 240);
+  flex-direction: column;
+  justify-items: space-around;
+  text-align: center;
+}
+.input {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 300px;
+  height: 30px;
+  text-align: left;
+  border-radius: 5px;
+}
+.textarea {
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 300px;
+  height: 200px;
+  font-size: 15px;
+  align-items: left;
+  border-radius: 5px;
+}
+.btn {
+  display: flex;
+  width: 150px;
+  margin-top: 10px;
+  justify-content: center;
+  margin-left: 160px;
+  border-radius: 5px;
+}

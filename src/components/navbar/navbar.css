@@ -1,0 +1,13 @@
+.top {
+  background-color: rgb(206, 94, 103);
+  width: 100%;
+  justify-content: flex-start;
+  height: 70px;
+  font-size: 20px;
+  display: flex;
+}
+.icons {
+  align-items: right;
+  margin-top: 10px;
+  margin-left: 800px;
+}

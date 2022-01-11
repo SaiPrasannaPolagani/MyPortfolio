@@ -1,0 +1,46 @@
+.main-container {
+  overflow: hidden;
+  height: max-content;
+  background-position: absolute;
+  background-color: rgb(188, 203, 231);
+  height: 100%;
+}
+.container-one {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in;
+  background-color: rgb(240, 217, 184);
+  border-radius: 20px;
+}
+.container-two {
+  margin-top: 70px;
+  margin-left: 600px;
+  margin-bottom: 300px;
+  width: 500px;
+  height: 200px;
+  overflow: hidden;
+  box-shadow: 0px 0px 15px -5px;
+  transition: 0.5s;
+  animation: ease-in;
+  background-color: rgb(240, 217, 184);
+  border-radius: 20px;
+}
+.container-one:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px -5px;
+}
+.container-two:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px -5px;
+}
+.card_title {
+  text-align: center;
+}
+.card_description {
+  text-align: center;
+}
